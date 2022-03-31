@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu peso en un lugar donde pesas menos</title>
+    <link rel="stylesheet" href="peso.css">
+</head>
+<body>
+    <h1>Tu peso en otro planeta</h1>
+    <p>En la tierra pesas distinto que en Marte o Jupiter</p>
+    <section>
+        <div class="form-container">
+            <form >
+                <label for="product_price" class="input_label">¿Cual es tu peso?</label>
+                <div class="input-container">
+                    <input type="number" id="product_price" class="input">
+                </div>
+                <label for="product_discount" class="input_label">¿Que planeta?</label>
+                <div class="input-container">
+                    <input id="product_discount" class="input">   
+                </div>
+                <button class="button" type="button" onclick="calcularpeso()">Calcular peso</button>
+            </form>
+            <div class="result-container">
+                <p id="resultado"></p>
+                <p id="descripcion"></p>
+            </div>
+        </div>
+    </section>
+    <script src="peso.js"></script>
+</body>
+</html>

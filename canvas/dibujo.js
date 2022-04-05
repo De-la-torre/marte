@@ -1,15 +1,15 @@
 var d = document.getElementById("dibujito");
 var lienzo = d.getContext("2d");
-var lineas = 50;
+var lineas = 40;
 var l = 0;
 var yi, xf, y2;
 while(l < lineas){
-    y2 = 500-(10*l+10);
+    y2 =400-(10*l+10);
     yi = 10*l;
     xf = 10*l+10
-    dibujarLienzo("black", 0, yi, xf, 500);
-    dibujarLienzo("black", yi, 0, 500, xf);
-    dibujarLienzo("black", 500, y2, xf, 500);
+    dibujarLienzo("black", 0, yi, xf, 400);
+    dibujarLienzo("black", yi, 0, 400, xf);
+    dibujarLienzo("black", 400, y2, xf, 400);
     dibujarLienzo("black", y2, 0, 0, xf);
     l = l + 1;
 }

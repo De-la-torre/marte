@@ -11,7 +11,7 @@ document.addEventListener("keyup", dibujarTeclado)
 
 var cuadrito = document.getElementById("area")
 var papel = cuadrito.getContext("2d")
-var x = 150;
+var x = 400;
 var y = 150;
 
 dibujarLienzo("red", 149, 149, 151, 151, papel);

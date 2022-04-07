@@ -7,14 +7,14 @@ var teclas = {
 
 console.log(teclas);
 
-document.addEventListener("keyup", dibujarTeclado)
+document.addEventListener("keydown", dibujarTeclado)
 
 var cuadrito = document.getElementById("area")
 var papel = cuadrito.getContext("2d")
-var x = 400;
-var y = 150;
+var x = 500;
+var y = 225;
 
-dibujarLienzo("red", 149, 149, 151, 151, papel);
+// dibujarLienzo("red", 149, 149, 151, 151, papel);
 
 function dibujarLienzo(color, xinicial, yinicial, xlinea, ylinea, lienzo){
     lienzo.beginPath();

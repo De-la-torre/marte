@@ -1,10 +1,12 @@
 var texto = document.getElementById("texto_lineas");
 var boton = document.getElementById("botoncito");
 boton.addEventListener("click", dibujoPorClick);
+var figura = parseInt(prompt("Elige que figura quieres n\ 1 2 0 3"))
 
 var d = document.getElementById("dibujito");
 var ancho = d.width;
 var lienzo = d.getContext("2d");
+
 
 
 function dibujarLienzo(color, xinicial, yinicial, xlinea, ylinea){
